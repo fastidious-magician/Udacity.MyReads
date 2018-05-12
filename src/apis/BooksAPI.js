@@ -41,22 +41,21 @@ export const BooksAPI = {
     updateBookshelf: (book_id, shelf) => {
         return new Promise(async (resolve, reject) => {
             try {
-                let req_response = axios.put(`${api_url}/books/${book_id}`);
+                let req_response = axios.put(`${api_url}/books/${book_id}`, {
+                    "body": JSON.stringify(shelf),
+                    "headers": {
+                        ...headers,
+                        "Content-Type": "application/json"
+                    }
+                });
                 let d = await req_response;
-                let book = d.data;
-                resolve(book);
+                let updated_books = d.data.books;
+                resolve(updated_books);
             }
             catch (ex) {
                 reject(ex);
             }
         });
-        // fetch(`${api_url}/books/${bookId}`, {
-        //     method: "PUT",
-        //     headers: {
-        //         ...headers,
-        //         "Content-Type": "application/json"
-        //     }
-        // })
     }
 };
 

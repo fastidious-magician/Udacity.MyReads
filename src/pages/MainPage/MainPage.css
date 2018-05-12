@@ -1,4 +1,19 @@
-.MainPage {
+.main-page-main {
     display: flex;
     flex-direction: column;
+}
+
+.main-page-bookshelf-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    transition: ease all 0.5s;
+}
+
+@media(max-width: 1200px) {
+    .main-page-bookshelf-container {
+        width: 80%;
+    }
 }

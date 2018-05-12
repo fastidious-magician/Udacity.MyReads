@@ -15,8 +15,11 @@ export default class Foot extends React.Component {
 
     render() {
         return (
-            <div className="Foot-Main">
-                <p>My Reads App</p>
+            <div className="foot-main">
+                <div className="foot-info-container">
+                    <h4>My Reads App</h4>
+                    <p>Created by Matthew</p>
+                </div>
             </div>
         );
     }

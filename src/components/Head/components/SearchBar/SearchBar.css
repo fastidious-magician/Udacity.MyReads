@@ -1,0 +1,28 @@
+.search-bar-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.search-bar-main input[type=text] {
+    padding: 15px;
+    width: 100%;
+    outline: 0px solid black;
+    transition: ease all 0.25s;
+}
+
+.search-bar-main input[type=text]:focus {
+    outline: 2px solid black;
+}
+
+
+
+.search-bar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

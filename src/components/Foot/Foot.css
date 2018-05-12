@@ -1,12 +1,30 @@
-.Foot-Main {
+.foot-main {
     display: flex;
-    min-height: 80px;
+    min-height: 90px;
     background-color: #888;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
+    margin-top: auto;
 }
 
-.Foot-Main p {
+.foot-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-info-container h4 {
     color: white;
     text-align: center;
+    font-family: 'Oxygen', 'sans-serif';
+    margin-bottom: 0px;
+    mmargin-top: 0px;
+}
+.foot-info-container p {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Oxygen', 'sans-serif';
+    letter-spacing: 1px;
 }
