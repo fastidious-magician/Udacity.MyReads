@@ -1,4 +1,4 @@
-.Head-Main {
+.head-main {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -6,4 +6,42 @@
     min-height: 150px;
     background-color: #0f7dee;
     box-shadow: 0px 4px 2px -2px gray;
+}
+
+.head-logo-container {
+    flex: 1;
+}
+.head-react-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-react-logo-container img {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.head-react-logo {
+    animation: react-logo-spin infinite 20s linear;
+}
+
+@keyframes react-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.head-logo-container h3 {
+    font-family: 'Oxygen', 'sans-serif';
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.head-logo-container p {
+
+}
+
+.head-search-bar-container {
+    flex: 1;
 }

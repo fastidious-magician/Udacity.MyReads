@@ -7,10 +7,13 @@
     min-height: 160px;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .bookshelf-title-container {
     width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .bookshelf-title-container h4 {
@@ -26,4 +29,5 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }

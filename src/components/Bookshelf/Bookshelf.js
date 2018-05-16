@@ -1,6 +1,7 @@
 import React from 'react';
 import './Bookshelf.css';
 import BookDisplay from './components/BookDisplay/BookDisplay';
+import SpinnerM from '../../components/SpinnerM/SpinnerM';
 
 export default class Bookshelf extends React.Component {
 
@@ -15,7 +16,15 @@ export default class Bookshelf extends React.Component {
     }
 
     controlBooksDisplay = () => {
-        if (!this.props.books) {
+        if (!this.props.data_fetched) {
+            return (
+                <div className="bookshelf-books-display">
+                    <SpinnerM main_class_name={"AoiReportPage-LoadingSpinner-SpinnerMain"}/>
+                </div>
+            )
+        }
+
+        if (this.props.books.length === 0) {
             return (
                 <div className="bookshelf-books-display">
                     <p>No books to display.</p>
@@ -23,10 +32,11 @@ export default class Bookshelf extends React.Component {
             )
         }
 
+        let indexer = 0;
         return (
             <div className="bookshelf-books-display">
                 {this.props.books.map((item) =>
-                    <BookDisplay book={item}/>
+                    <BookDisplay book={item} key={indexer++}/>
                 )}
             </div>
         )

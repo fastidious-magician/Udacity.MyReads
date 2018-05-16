@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83c5947-6432-4109-8e99-c9fce89f949d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SearchPage/SearchPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/myreads.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/apis/BooksAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/BooksAPI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Foot/Foot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Foot/Foot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Foot/Foot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Foot/Foot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Head/Head.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/Head.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Head/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/Head.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/react_logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SearchPage/SearchPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchPage/SearchPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,15 +28,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="3">
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="scratch_2.js" pinned="false" current-in-tab="true">
-              <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js">
+            <file leaf-file-name="BooksAPI.js" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/apis/BooksAPI.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="2910">
-                    <caret line="194" column="30" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+                  <state relative-caret-position="-315">
+                    <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
                   </state>
                 </provider>
               </entry>
@@ -60,8 +53,11 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -69,17 +65,8 @@
           <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-251">
-                  <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SearchPage.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/SearchPage/SearchPage.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
+                <state relative-caret-position="319">
+                  <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -90,44 +77,8 @@
           <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" selection-start-line="25" selection-end-line="25" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Bookshelf.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BookDisplay.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="32" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="32" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Foot.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Foot/Foot.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+                <state relative-caret-position="79">
+                  <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -138,8 +89,23 @@
           <file leaf-file-name="Head.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Head/Head.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Bookshelf.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -148,47 +114,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="MainPage.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SearchPage.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/pages/SearchPage/SearchPage.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="12" selection-start-column="12" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Foot.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Foot/Foot.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Bookshelf.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
-                  <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                  <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -196,26 +126,17 @@
           <file leaf-file-name="BookDisplay.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="9" selection-start-column="9" selection-end-column="9" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SearchBar.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="myreads.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/styles/myreads.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2475">
-                  <caret line="165" selection-start-line="165" selection-end-line="165" />
+                <state relative-caret-position="60">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -223,17 +144,26 @@
           <file leaf-file-name="Head.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Head/Head.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BooksAPI.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/apis/BooksAPI.js">
+          <file leaf-file-name="SearchBar.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+                <state relative-caret-position="150">
+                  <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="myreads.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/styles/myreads.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="624">
+                  <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -252,6 +182,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>box-shadow</find>
+      <find>title-container</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -265,29 +201,29 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/pages/MainPage/HomePage.css" />
         <option value="$PROJECT_DIR$/src/pages/MainPage/HomePage.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/Head/Head.css" />
         <option value="$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.css" />
         <option value="$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/apis/BooksAPI.js" />
         <option value="$PROJECT_DIR$/src/components/Foot/Foot.js" />
         <option value="$PROJECT_DIR$/src/styles/myreads.css" />
-        <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" />
-        <option value="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" />
-        <option value="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" />
         <option value="$PROJECT_DIR$/src/pages/MainPage/MainPage.css" />
         <option value="$PROJECT_DIR$/src/pages/SearchPage/SearchPage.css" />
         <option value="$PROJECT_DIR$/src/components/Foot/Foot.css" />
-        <option value="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css" />
         <option value="$PROJECT_DIR$/src/pages/SearchPage/SearchPage.js" />
         <option value="$PROJECT_DIR$/src/pages/SearchPage/components/SearchBar/SearchBar.css" />
         <option value="$PROJECT_DIR$/src/pages/SearchPage/components/SearchBar/SearchBar.js" />
+        <option value="$PROJECT_DIR$/src/apis/BooksAPI.js" />
+        <option value="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css" />
+        <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" />
+        <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css" />
+        <option value="$PROJECT_DIR$/src/components/Head/Head.css" />
         <option value="$PROJECT_DIR$/src/components/Head/Head.js" />
+        <option value="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" />
+        <option value="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js" />
         <option value="$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css" />
       </list>
@@ -311,7 +247,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="126" />
-    <option name="y" value="-14" />
+    <option name="y" value="-18" />
     <option name="width" value="3087" />
     <option name="height" value="1827" />
   </component>
@@ -344,6 +280,13 @@
               <item name="myreads" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myreads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myreads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookshelf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myreads" type="b2602c69:ProjectViewProjectNode" />
@@ -389,6 +332,12 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="SearchPage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myreads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myreads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -412,6 +361,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matth\Documents\Dev Files\Udacity React\Udacity.MyReads\myreads\src\resources" />
       <recent name="C:\Users\matth\Documents\Dev Files\Udacity React\Udacity.MyReads\myreads\src\components\Head\components" />
     </key>
   </component>
@@ -444,35 +394,37 @@
       <workItem from="1525633304795" duration="1804000" />
       <workItem from="1525733120596" duration="2069000" />
       <workItem from="1526078361251" duration="9218000" />
+      <workItem from="1526144477138" duration="1200000" />
+      <workItem from="1526429738112" duration="7301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29816000" />
+    <option name="totallyTimeSpent" value="38317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-6" width="1372" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49176645" weight="0.32842416" />
-      <window_info anchor="bottom" id="Regex Tester" />
+      <window_info anchor="bottom" id="Regex Tester" order="15" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.52887535" side_tool="true" weight="0.32842416" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48652694" weight="0.3298969" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49476048" weight="0.32842416" />
       <window_info anchor="bottom" id="npm" order="14" sideWeight="0.4281437" weight="0.3240059" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48652694" weight="0.3298969" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.46884498" visible="true" weight="0.32842416" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5704698" visible="true" weight="0.15653495" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.46884498" visible="true" weight="0.30633286" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5704698" visible="true" weight="0.15653495" />
       <window_info anchor="bottom" id="Statistic" order="0" sideWeight="0.7717066" weight="0.3298969" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4977169" weight="0.3298969" />
       <window_info anchor="bottom" id="Structure" order="13" sideWeight="0.531155" side_tool="true" weight="0.32842416" />
-      <window_info id="Favorites" order="1" sideWeight="0.50220263" side_tool="true" weight="0.16392216" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.7028443" weight="0.32547864" />
+      <window_info id="Favorites" order="1" sideWeight="0.50220263" side_tool="true" weight="0.16392216" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4977169" weight="0.3298969" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32890856" />
@@ -482,23 +434,23 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="npm" order="15" sideWeight="0.4281437" weight="0.3240059" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.48652694" weight="0.3298969" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5704698" visible="true" weight="0.15653495" />
       <window_info anchor="bottom" id="Structure" order="14" sideWeight="0.531155" side_tool="true" weight="0.32842416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.49176645" weight="0.32842416" />
-      <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Statistic" order="1" sideWeight="0.7717066" weight="0.3298969" />
-      <window_info anchor="bottom" id="Regex Tester" order="0" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.7028443" weight="0.32547864" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890856" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Regex Tester" order="0" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.4977169" weight="0.3298969" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.7028443" weight="0.32547864" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.46884498" weight="0.32842416" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.52887535" side_tool="true" weight="0.32842416" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49476048" weight="0.32842416" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.4977169" weight="0.3298969" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.46884498" weight="0.32842416" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890856" />
       <window_info id="Favorites" order="1" sideWeight="0.50220263" side_tool="true" weight="0.16392216" />
     </layout-to-restore>
   </component>
@@ -509,16 +461,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Foot/Foot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Head/Head.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -526,16 +468,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -609,16 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -640,13 +564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.css" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -708,20 +626,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Head/Head.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -737,23 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/apis/BooksAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.css" />
     <entry file="file://$PROJECT_DIR$/src/components/Foot/Foot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="210">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -761,60 +652,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2910">
-          <caret line="194" column="30" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/myreads.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/components/BooksDisplay/BooksDisplay.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/SearchPage/SearchPage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -829,6 +667,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/SearchPage/SearchPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="194" column="30" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Foot/Foot.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -836,31 +691,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="173">
+          <caret line="15919" column="29" lean-forward="true" selection-start-line="15919" selection-start-column="29" selection-end-line="15919" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/src/apis/BooksAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-315">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/SearchPage/SearchPage.js">
+    <entry file="file://$PROJECT_DIR$/src/styles/myreads.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="624">
+          <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Head/Head.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Head/Head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -869,29 +741,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Head/Head.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="319">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
