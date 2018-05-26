@@ -1,0 +1,9 @@
+.book-move-menu-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-move-menu-item {
+    min-height: 20px;
+
+}

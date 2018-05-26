@@ -11,6 +11,7 @@
 .head-logo-container {
     flex: 1;
 }
+
 .head-react-logo-container {
     display: flex;
     align-items: center;
