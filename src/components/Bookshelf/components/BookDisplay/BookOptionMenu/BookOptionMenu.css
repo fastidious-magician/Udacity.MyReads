@@ -1,0 +1,23 @@
+.book-options-menu-main {
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    min-width: 100px;
+    position: relative;
+}
+
+.book-options-menu-item {
+    transition: ease all 0.5s;
+    background-color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.book-options-menu-item:hover {
+    background-color: darkgray;
+}
+
+.book-options-menu-item p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 13.5px;
+}

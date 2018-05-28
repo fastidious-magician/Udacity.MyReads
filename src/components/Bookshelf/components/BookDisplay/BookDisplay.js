@@ -2,22 +2,43 @@ import React from 'react';
 import './BookDisplay.css';
 import BookMoveMenu from './BookMoveMenu/BookMoveMenu';
 import Bookshelf from "../../Bookshelf";
+import BookOptionMenu from './BookOptionMenu/BookOptionMenu';
 
 export default class BookDisplay extends React.Component {
     constructor(props) {
         super(props);
+
+        this.state = {
+            show_options_menu: false
+        };
+
+        this.toggleOptionsMenu = this.toggleOptionsMenu.bind(this);
     }
 
-    componentWillMount() {
-
-    }
-
-
-    handleMenuButtonClick = (event) => {
-        let x_pos = event.clientX;
-        let y_pos = event.clientY;
-        console.log(`X: ${x_pos}, Y: ${y_pos}`);
+    toggleOptionsMenu = () => {
+        this.setState({show_options_menu: !this.state.show_options_menu});
     };
+
+    closeOptionsMenu = () => {
+        this.setState({ show_options_menu: false });
+    };
+
+    menuOptionsDisplay = () => {
+        if (this.state.show_options_menu) {
+            return (
+                <div className="book-display-menu-button" onClick={this.toggleOptionsMenu}>
+                    <BookOptionMenu show={this.state.show_options_menu} closeMenu={this.closeOptionsMenu}/>
+                </div>
+            );
+        }
+
+        return (
+            <div className="book-display-menu-button" onClick={this.toggleOptionsMenu}>
+                <i className="material-icons">more_vert</i>
+            </div>
+        )
+    };
+
 
     render() {
         // console.log(this.props.book);
@@ -34,12 +55,7 @@ export default class BookDisplay extends React.Component {
         return (
             <div className="book-display-main">
                 <div className="book-display-cover" style={b_style}>
-                    <div className="book-display-menu-button" onClick={(event) => {
-                        this.handleMenuButtonClick(event);
-                    }}>
-                        <i className="material-icons">more_vert</i>
-                    </div>
-                    {/*<BookMoveMenu fetchBooksData={this.props.fetchBooksData}/>*/}
+                    {this.menuOptionsDisplay()}
                 </div>
                 <p className="book-display-title-text">{book.title}</p>
                 <p className="book-display-author-text">{book.authors[0]}</p>
