@@ -64,15 +64,18 @@ export default class MainPage extends React.Component {
                 <Head/>
                 <div className="main-page-bookshelf-container">
                     <Bookshelf bookshelf_name={"Currently Reading:"}
+                               show={true}
                                books={this.state.currently_readings}
                                data_fetched={this.state.data_fetched}
                                fetchBooksData={this.fetchBooksData}/>
                     <Bookshelf bookshelf_name={"Want to Read:"}
                                books={this.state.want_to_reads}
+                               show={true}
                                data_fetched={this.state.data_fetched}
                                fetchBooksData={this.fetchBooksData}/>
                     <Bookshelf bookshelf_name={"Already Read:"}
                                books={this.state.already_reads}
+                               show={true}
                                data_fetched={this.state.data_fetched}
                                fetchBooksData={this.fetchBooksData}/>
                 </div>
