@@ -6,8 +6,8 @@ const outsideClickDetection = (element, on_click_outside) => {
     outsideClickListener = event => {
         if (!element.contains(event.target)) { // or use: event.target.closest(selector) === null
             console.log("A click has been detected outside!!!");
-            on_click_outside();
             removeClickListener();
+            on_click_outside();
         }
     };
 
@@ -19,6 +19,6 @@ const outsideClickDetection = (element, on_click_outside) => {
 };
 
 module.exports = {
-    "outsideClickDetection": outsideClickDetection,
+    "outsideClickDetection": outsideClickDetection
 };
 

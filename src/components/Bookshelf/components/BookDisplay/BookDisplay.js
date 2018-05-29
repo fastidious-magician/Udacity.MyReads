@@ -12,28 +12,30 @@ export default class BookDisplay extends React.Component {
             show_options_menu: false
         };
 
-        this.toggleOptionsMenu = this.toggleOptionsMenu.bind(this);
+        this.showOptionsMenu = this.showOptionsMenu.bind(this);
+        this.closeOptionsMenu = this.closeOptionsMenu.bind(this);
     }
 
-    toggleOptionsMenu = () => {
-        this.setState({show_options_menu: !this.state.show_options_menu});
+    showOptionsMenu = async () => {
+
+        this.setState({ show_options_menu: true });
     };
 
     closeOptionsMenu = () => {
-        this.setState({ show_options_menu: false });
+        this.setState({ show_options_menu:  false });
     };
 
     menuOptionsDisplay = () => {
         if (this.state.show_options_menu) {
             return (
-                <div className="book-display-menu-button" onClick={this.toggleOptionsMenu}>
+                <div className="book-display-menu-button" onClick={this.showOptionsMenu}>
                     <BookOptionMenu show={this.state.show_options_menu} closeMenu={this.closeOptionsMenu}/>
                 </div>
             );
         }
 
         return (
-            <div className="book-display-menu-button" onClick={this.toggleOptionsMenu}>
+            <div className="book-display-menu-button" onClick={this.showOptionsMenu}>
                 <i className="material-icons">more_vert</i>
             </div>
         )

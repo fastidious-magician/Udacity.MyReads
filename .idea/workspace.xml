@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c83c5947-6432-4109-8e99-c9fce89f949d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Bookshelf/shelves_menu_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/outsideClickDetection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apis/BooksAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/BooksAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/outsideClickDetection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/outsideClickDetection.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +34,8 @@
           <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
+                <state relative-caret-position="15">
                   <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -48,7 +43,7 @@
           <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="900">
+                <state relative-caret-position="975">
                   <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -60,8 +55,8 @@
           <file leaf-file-name="Bookshelf.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+                <state relative-caret-position="46">
+                  <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -81,7 +76,7 @@
           <file leaf-file-name="Head.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Head/Head.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
+                <state relative-caret-position="330">
                   <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
@@ -93,8 +88,8 @@
           <file leaf-file-name="BookOptionMenu.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+                <state relative-caret-position="225">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -105,8 +100,8 @@
           <file leaf-file-name="BookDisplay.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+                <state relative-caret-position="15">
+                  <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -117,8 +112,8 @@
           <file leaf-file-name="outsideClickDetection.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/utils/outsideClickDetection.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -139,10 +134,10 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Bookshelf.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Bookshelf.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="285">
                   <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
                 </state>
               </provider>
@@ -157,7 +152,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BookOptionMenu.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BookOptionMenu.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
@@ -187,7 +182,7 @@
           <file leaf-file-name="BooksAPI.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/apis/BooksAPI.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-15">
+                <state>
                   <caret column="55" selection-start-column="55" selection-end-column="55" />
                 </state>
               </provider>
@@ -284,11 +279,11 @@
         <option value="$PROJECT_DIR$/src/utils/outsideEventDetection.js" />
         <option value="$PROJECT_DIR$/src/apis/BooksAPI.js" />
         <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/MenuOptions.js" />
-        <option value="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" />
         <option value="$PROJECT_DIR$/src/components/Bookshelf/shelves_menu_options.js" />
+        <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.css" />
+        <option value="$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js" />
         <option value="$PROJECT_DIR$/src/utils/outsideClickDetection.js" />
         <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js" />
-        <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.css" />
         <option value="$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.js" />
       </list>
     </option>
@@ -321,7 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,6 +425,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,6 +485,7 @@
       <workItem from="1527310326901" duration="12064000" />
       <workItem from="1527391416931" duration="6588000" />
       <workItem from="1527474028486" duration="2422000" />
+      <workItem from="1527560904698" duration="3481000" />
     </task>
     <task id="LOCAL-00001" summary="-testing">
       <created>1527315446520</created>
@@ -502,7 +498,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62019000" />
+    <option name="totallyTimeSpent" value="65500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-6" width="1364" height="812" extended-state="6" />
@@ -515,19 +511,19 @@
       <window_info anchor="bottom" id="npm" order="14" sideWeight="0.4281437" weight="0.3240059" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48652694" weight="0.3298969" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.46884498" visible="true" weight="0.30633286" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5704698" visible="true" weight="0.1559633" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4678899" visible="true" weight="0.30633286" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5704698" visible="true" weight="0.1559633" />
       <window_info anchor="bottom" id="Statistic" order="0" sideWeight="0.7717066" weight="0.3298969" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Structure" order="13" sideWeight="0.531155" side_tool="true" weight="0.32842416" />
+      <window_info anchor="bottom" id="Structure" order="13" sideWeight="0.5321101" side_tool="true" visible="true" weight="0.30633286" />
       <window_info id="Favorites" order="1" sideWeight="0.50220263" side_tool="true" weight="0.16392216" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.7028443" weight="0.32547864" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4977169" weight="0.3298969" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32890856" />
     </layout>
@@ -537,23 +533,23 @@
       <window_info anchor="bottom" id="npm" order="14" sideWeight="0.4281437" weight="0.3240059" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48652694" weight="0.3298969" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5704698" visible="true" weight="0.1559633" />
       <window_info anchor="bottom" id="Structure" order="13" sideWeight="0.531155" side_tool="true" weight="0.32842416" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" sideWeight="0.49176645" weight="0.32842416" />
-      <window_info id="Favorites" order="1" sideWeight="0.50220263" side_tool="true" weight="0.16392216" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49476048" weight="0.32842416" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4977169" weight="0.3298969" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Statistic" order="0" sideWeight="0.7717066" weight="0.3298969" />
       <window_info anchor="bottom" id="Regex Tester" order="15" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.7028443" weight="0.32547864" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.46884498" weight="0.30633286" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32890856" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.52887535" side_tool="true" weight="0.32842416" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32890856" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5704698" visible="true" weight="0.1559633" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49476048" weight="0.32842416" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4977169" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.46884498" visible="true" weight="0.30633286" />
+      <window_info id="Favorites" order="1" sideWeight="0.50220263" side_tool="true" weight="0.16392216" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,17 +692,17 @@
     <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/src/App.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
             <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="4" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -768,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -782,30 +771,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookContextMenu/BookContextMenu.js" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -863,20 +825,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/MenuOptions.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/outsideClickDetection.js">
+    <entry file="file://$PROJECT_DIR$/src/apis/BooksAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Head/components/SearchBar/SearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/MainPage/MainPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -887,9 +877,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/Bookshelf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Head/Head.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="330">
           <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -897,34 +897,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/outsideClickDetection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookDisplay.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="15">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/apis/BooksAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Bookshelf/components/BookDisplay/BookOptionMenu/BookOptionMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="225">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

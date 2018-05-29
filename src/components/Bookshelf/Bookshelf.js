@@ -32,11 +32,10 @@ export default class Bookshelf extends React.Component {
             )
         }
 
-        let indexer = 0;
         return (
             <div className="bookshelf-books-display">
-                {this.props.books.map((item) =>
-                    <BookDisplay book={item} key={indexer++}
+                {this.props.books.map((item, index) =>
+                    <BookDisplay book={item} key={index}
                                  fetchBooksData={this.fetchBooksData}/>
                 )}
             </div>

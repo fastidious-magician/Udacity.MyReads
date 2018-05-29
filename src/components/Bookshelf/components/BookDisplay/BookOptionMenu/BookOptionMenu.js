@@ -1,5 +1,5 @@
 import React from 'react';
-import { BooksAPI} from "../../../../../apis/BooksAPI";
+import {BooksAPI} from "../../../../../apis/BooksAPI";
 import './BookOptionMenu.css';
 import {outsideClickDetection} from '../../../../../utils/outsideClickDetection';
 import {menu_options} from '../../../shelves_menu_options';
@@ -10,31 +10,41 @@ export default class BookOptionMenu extends React.Component {
         super(props);
 
         this.state = {};
+
+        this.onOutsideClick = this.onOutsideClick.bind(this);
     }
 
     componentDidMount() {
         if (this.props.show) {
-            outsideClickDetection(this.refs.book_options_menu, this.onOutsideClick);
+            if (!BookOptionMenu.aMenuIsOpen) {
+                outsideClickDetection(this.refs.book_options_menu, this.onOutsideClick);
+            }
         }
     }
+
+    static aMenuIsOpen = false;
 
     onOutsideClick = () => {
         this.props.closeMenu();
     };
 
     doItemAction = (item) => {
-      switch (item.name) {
-          case "currently_reading":
-              break;
-          case "already_read":
-              break;
-          case "want_to_read":
-              break;
-          case "none":
-              break;
-          default:
-              break;
-      }
+        switch (item.name) {
+            case "currently_reading":
+                console.log("Doing action for currently reading");
+                break;
+            case "already_read":
+                console.log("Doing action for already read.");
+                break;
+            case "want_to_read":
+                console.log("Doing action for want to read.");
+                break;
+            case "none":
+                console.log("Doing action for none.");
+                break;
+            default:
+                break;
+        }
     };
 
     render() {
@@ -46,6 +56,7 @@ export default class BookOptionMenu extends React.Component {
                         <div className="book-options-menu-item" onClick={(e) => {
                             e.stopPropagation();
                             console.log(item);
+                            this.doItemAction(item);
                         }} key={index}>
                             <p>{item.display_str}</p>
                         </div>
