@@ -8,27 +8,14 @@ export default class SearchBar extends React.Component {
 
     constructor(props) {
         super(props);
-
-        this.state = {
-            search_term: ""
-        };
     }
 
     componentDidMount() {
         console.log(window.location.pathname);
     }
 
-    generateUrlParams = () => {
-        let url_params = new URLSearchParams({
-            term: this.state.search_term
-        });
-        return url_params.toString();
-    };
-
     navigateToSearchPage = (event, direct) => {
-        let search_url = `/search?${this.generateUrlParams()}`;
-
-        console.log("Search url: " + search_url);
+        let search_url = `/search`;
 
         if (direct) {
             window.location = search_url;
@@ -48,26 +35,34 @@ export default class SearchBar extends React.Component {
                 <input type="text" placeholder="Search for books"
                        onChange={(event) => {
 
-                           console.log("val: " + event.target.value);
-
-                           this.setState({
-                               search_term: event.target.value
-                           });
+                           if (this.props.on_search_page) {
+                               this.props.onTermChange(event.target.value);
+                           }
                        }}
                        onKeyDown={(event) => {
                            if (event.key === "Enter") {
-                               this.navigateToSearchPage(event);
+                               if (!this.props.on_search_page) {
+                                   this.navigateToSearchPage(event);
+                               }
+                               else {
+
+                               }
                            }
                        }}
                        onFocus={(event) => {
-                           console.log("this has been focused")
-                           this.navigateToSearchPage(event);
-                           setTimeout(() => {
+                           if (!this.props.on_search_page) {
                                this.navigateToSearchPage(event, true);
-                           }, 1)
+                           }
                        }}
                 />
-                <div className="search-bar-button">
+                <div className="search-bar-button" onClick={(e) => {
+                    if (!this.props.on_search_page) {
+                        this.navigateToSearchPage(e);
+                    }
+                    else {
+
+                    }
+                }}>
                     <i className="material-icons">search</i>
                 </div>
             </div>

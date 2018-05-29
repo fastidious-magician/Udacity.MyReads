@@ -2,3 +2,38 @@
     display: flex;
     flex-direction: column;
 }
+
+.search-page-content-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+
+}
+
+@media (max-width: 1200px) {
+    .search-page-content-container {
+        width: 80%;
+    }
+}
+
+.search-page-default-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 10%;
+}
+
+.search-page-default-container p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.search-page-default-container i {
+    font-size: 28px;
+    text-align: center;
+}

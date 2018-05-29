@@ -12,6 +12,19 @@
     flex: 1;
 }
 
+.head-logo-container i {
+    color: white;
+    font-size: 35px;
+    transition: ease all 0.5s;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.head-logo-container i:hover {
+    background: lightblue;
+    border-radius: 50%;
+}
+
 .head-react-logo-container {
     display: flex;
     align-items: center;

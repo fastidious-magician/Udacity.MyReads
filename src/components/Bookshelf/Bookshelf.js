@@ -32,10 +32,6 @@ export default class Bookshelf extends React.Component {
             )
         }
 
-        if (!this.props.show) {
-            return (<div></div>);
-        }
-
         return (
             <div className="bookshelf-books-display">
                 {this.props.books.map((item, index) =>

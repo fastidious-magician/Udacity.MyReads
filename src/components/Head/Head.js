@@ -8,22 +8,35 @@ export default class Head extends React.Component {
 
     constructor(props) {
         super(props);
-
-        this.state = {};
     }
 
-    componentDidMount() {
+    logoArrowDisplay = () => {
+        if (this.props.on_search_page) {
+            return (
+                <div className="head-logo-container" style={{paddingLeft: "5%"}}>
+                    <i className="material-icons" onClick={() => {
+                        window.location = "/";
+                    }}>arrow_back</i>
+                </div>
+            );
+        }
 
-    }
+        return (
+            <div className="head-logo-container">
+                <h3>Udacity.MyReads</h3>
+            </div>
+        );
+    };
 
     render() {
         return (
             <div className="head-main">
-                <div className="head-logo-container">
-                    <h3>Udacity.MyReads</h3>
-                </div>
+                {this.logoArrowDisplay()}
                 <div className="head-search-bar-container">
-                    <SearchBar/>
+                    <SearchBar
+                        search_term={this.props.search_term}
+                        onTermChange={this.props.onTermChange}
+                        on_search_page={this.props.on_search_page}/>
                 </div>
                 <div style={{flex: "1"}}>
                     <div className="head-react-logo-container">
