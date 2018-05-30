@@ -17,7 +17,6 @@ export default class BookDisplay extends React.Component {
     }
 
     showOptionsMenu = async () => {
-
         this.setState({ show_options_menu: true });
     };
 
@@ -43,16 +42,23 @@ export default class BookDisplay extends React.Component {
 
 
     render() {
-        // console.log(this.props.book);
         let book = this.props.book;
-
-        console.log(book.imageLinks.smallThumbnail);
 
         let b_style = {
             height: "193px",
-            width: "128px",
-            backgroundImage: `url(${book.imageLinks.smallThumbnail}`
+            width: "128px"
         };
+
+        if (book.imageLinks) {
+            if (book.imageLinks.smallThumbnail !== undefined) {
+                b_style["backgroundImage"] = `url(${book.imageLinks.smallThumbnail}`;
+            }
+        }
+
+        let author = "No author available.";
+        if (book.authors !== undefined) {
+            author = book.authors[0];
+        }
 
         return (
             <div className="book-display-main">
@@ -60,7 +66,7 @@ export default class BookDisplay extends React.Component {
                     {this.menuOptionsDisplay()}
                 </div>
                 <p className="book-display-title-text">{book.title}</p>
-                <p className="book-display-author-text">{book.authors[0]}</p>
+                <p className="book-display-author-text">{author}</p>
             </div>
         )
     }

@@ -48,7 +48,7 @@ export const BooksAPI = {
         return new Promise(async (resolve, reject) => {
             try {
                 let req_response = axios.put(`${api_url}/books/${book_id}`, {
-                    "body": JSON.stringify(shelf),
+                    "data": JSON.stringify(shelf),
                     "headers": {
                         ...headers,
                         "Content-Type": "application/json"
@@ -63,36 +63,22 @@ export const BooksAPI = {
             }
         });
     },
-    searchBooks: (query, max_results) => {
-        return new Promise(async (resolve, reject) => {
-            try {
-                let req_response = axios.post(`${api_url}/search`, {
-                    "headers": {
-                        ...headers,
-                        'Content-Type': 'application/json'
-                    },
-                    "body": JSON.stringify({query, max_results})
-                });
 
-                let d = await req_response;
-                let search_results = d.data;
-                resolve(search_results);
-            }
-            catch (ex) {
-                reject(ex);
-            }
-        })
+    searchBooks: (query, maxResults) => {
+        if (query.length < 1) {
+            return;
+        }
+        console.log("Querying for: " + query + " max results: " + maxResults);
+        return fetch(`${api_url}/search`, {
+            method: 'POST',
+            headers: {
+                ...headers,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({query, maxResults})
+        }).then(res => res.json())
+            .then(data => data.books);
     }
 };
 
 
-// export const search = (query, maxResults) =>
-//     fetch(`${api}/search`, {
-//         method: 'POST',
-//         headers: {
-//             ...headers,
-//             'Content-Type': 'application/json'
-//         },
-//         body: JSON.stringify({ query, maxResults })
-//     }).then(res => res.json())
-//         .then(data => data.books)

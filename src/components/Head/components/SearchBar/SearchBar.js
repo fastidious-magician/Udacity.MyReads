@@ -36,6 +36,7 @@ export default class SearchBar extends React.Component {
                        onChange={(event) => {
 
                            if (this.props.on_search_page) {
+                               this.props.invalidateResults();
                                this.props.onTermChange(event.target.value);
                            }
                        }}

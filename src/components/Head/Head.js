@@ -36,6 +36,7 @@ export default class Head extends React.Component {
                     <SearchBar
                         search_term={this.props.search_term}
                         onTermChange={this.props.onTermChange}
+                        invalidateResults={this.props.invalidateResults}
                         on_search_page={this.props.on_search_page}/>
                 </div>
                 <div style={{flex: "1"}}>

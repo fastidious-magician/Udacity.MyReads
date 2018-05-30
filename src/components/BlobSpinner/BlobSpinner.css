@@ -1,0 +1,37 @@
+.BlobSpinner-Main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spin 1s linear infinite;
+    transition: ease all 0.5s;
+}
+
+@keyframes spin {
+    0% {
+        border-radius: 47%;
+        transform: rotate(0deg) skewX(2deg) skewY(0deg);
+        background-color: blue;
+    }
+    50% {
+        border-radius: 10%;
+        transform: rotate(180deg) skewX(0deg) skewY(2deg);
+        background-color: gray;
+    }
+    100% {
+        border-radius: 47%;
+        transform: rotate(360deg) skewX(2deg) skew(0deg);
+        background-color: blue;
+    }
+}
+
+/*@keyframes spin {*/
+/*from {*/
+/*transform: rotate(0deg);*/
+/*border-radius: 50%*/
+/*}*/
+/*to {*/
+/*transform: rotate(360deg);*/
+/*border-radius: 0%;*/
+/*}*/
+
+/*}*/

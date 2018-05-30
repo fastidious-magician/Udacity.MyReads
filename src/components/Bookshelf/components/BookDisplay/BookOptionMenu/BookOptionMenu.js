@@ -1,7 +1,6 @@
 import React from 'react';
 import {BooksAPI} from "../../../../../apis/BooksAPI";
 import './BookOptionMenu.css';
-import {outsideClickDetection} from '../../../../../utils/outsideClickDetection';
 import {menu_options} from '../../../shelves_menu_options';
 
 export default class BookOptionMenu extends React.Component {
@@ -15,23 +14,18 @@ export default class BookOptionMenu extends React.Component {
     }
 
     componentDidMount() {
-        if (this.props.show) {
-            if (!BookOptionMenu.aMenuIsOpen) {
-                outsideClickDetection(this.refs.book_options_menu, this.onOutsideClick);
-            }
-        }
-    }
 
-    static aMenuIsOpen = false;
+    }
 
     onOutsideClick = () => {
         this.props.closeMenu();
     };
 
-    doItemAction = (item) => {
+    doItemAction = async (item) => {
         switch (item.name) {
             case "currently_reading":
                 console.log("Doing action for currently reading");
+                await BooksAPI.updateBookshelf();
                 break;
             case "already_read":
                 console.log("Doing action for already read.");
@@ -47,9 +41,35 @@ export default class BookOptionMenu extends React.Component {
         }
     };
 
+    handleMenuClickEvent = (event) => {
+        try {
+            if (!this.refs.book_options_menu.contains(event.target)) {
+                this.props.closeMenu();
+                window.removeEventListener('mousedown', this.handleMenuClickEvent, false);
+                console.log('removing evt listener');
+            }
+        }
+        catch (ex) {
+            try {
+                window.removeEventListener('mousedown', this.handleMenuClickEvent, false);
+            }
+            catch (ex) {
+                console.log("Failed to remove.");
+            }
+        }
+    };
+
     render() {
 
+        if (!this.props.show) {
+            window.removeEventListener('mousedown', this.handleMenuClickEvent, false);
+            console.log('removing evt listener');
+        }
+
         if (this.props.show) {
+            window.addEventListener('mousedown', this.handleMenuClickEvent, false);
+            console.log('added event listener');
+
             return (
                 <div className="book-options-menu-main" ref="book_options_menu">
                     {menu_options.map((item, index) =>
@@ -57,6 +77,7 @@ export default class BookOptionMenu extends React.Component {
                             e.stopPropagation();
                             console.log(item);
                             this.doItemAction(item);
+                            this.props.closeMenu();
                         }} key={index}>
                             <p>{item.display_str}</p>
                         </div>

@@ -1,9 +1,11 @@
 import React from 'react';
+import SpinnerBox from './components/SpinnerBox/SpinnerBox';
 import './SearchPage.css';
 import Head from '../../components/Head/Head';
 import Foot from '../../components/Foot/Foot';
 import Bookshelf from '../../components/Bookshelf/Bookshelf';
 import {BooksAPI} from "../../apis/BooksAPI";
+import _ from 'lodash';
 
 export default class SearchPage extends React.Component {
 
@@ -24,7 +26,7 @@ export default class SearchPage extends React.Component {
         };
 
         this.fetchBooksData = this.fetchBooksData.bind(this);
-        this.onTermChange = this.onTermChange.bind(this);
+        this.invalidateResults = this.invalidateResults.bind(this);
     }
 
     componentDidMount() {
@@ -35,10 +37,18 @@ export default class SearchPage extends React.Component {
 
     fetchBooksData = async () => {
 
-        let search_results = await BooksAPI.searchBooks(this.state.search_term, 100);
+        let search_results = await BooksAPI.searchBooks(this.state.search_term, 10);
 
         console.log(search_results);
         console.log("^^^ Search results ^^^");
+
+        try {
+            search_results.map((item) => {});
+        }
+        catch (ex) {
+            console.log("Invalid result.");
+            return;
+        }
 
         let currently_readings = [];
         let already_reads = [];
@@ -72,13 +82,14 @@ export default class SearchPage extends React.Component {
         });
     };
 
-    onTermChange = (value) => {
-        this.fetchBooksData();
-
-        // this.setState({ search_term: value });
-        // get new books
-        // organize into categories
+    invalidateResults = () => {
+      this.setState({ data_fetched: false });
     };
+
+    onTermChange = _.debounce(async (value) => {
+        await this.setState({ search_term: value });
+        this.fetchBooksData();
+    }, 500);
 
     resultDisplayControl = () => {
 
@@ -98,7 +109,9 @@ export default class SearchPage extends React.Component {
         if (this.state.all_results.length === 0) {
             return (
                 <div className="search-page-content-container">
-                    <p>No results for search term: "{this.state.search_term}"</p>
+                    <div className="search-page-noinfo-container">
+                        <p>No results for search term: "{this.state.search_term}"</p>
+                    </div>
                 </div>
             )
         }
@@ -135,8 +148,10 @@ export default class SearchPage extends React.Component {
             <div className="search-page-main">
                 <Head on_search_page={true}
                       onTermChange={this.onTermChange}
+                      invalidateResults={this.invalidateResults}
                       search_term={this.state.search_term}/>
 
+                {/*<SpinnerBox result_loading={this.state.data_fetched}/>*/}
                 {this.resultDisplayControl()}
 
                 <Foot/>
