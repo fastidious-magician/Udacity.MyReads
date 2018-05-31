@@ -7,25 +7,15 @@ export default class BookOptionMenu extends React.Component {
 
     constructor(props) {
         super(props);
-
-        this.state = {};
-
-        this.onOutsideClick = this.onOutsideClick.bind(this);
     }
-
-    componentDidMount() {
-
-    }
-
-    onOutsideClick = () => {
-        this.props.closeMenu();
-    };
 
     doItemAction = async (item) => {
         switch (item.name) {
             case "currently_reading":
                 console.log("Doing action for currently reading");
-                await BooksAPI.updateBookshelf();
+                let d = await BooksAPI.updateBookshelf(item.id, "currentlyReading");
+                console.log(d);
+                this.props.closeOptionsMenu();
                 break;
             case "already_read":
                 console.log("Doing action for already read.");

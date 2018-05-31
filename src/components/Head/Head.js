@@ -41,7 +41,7 @@ export default class Head extends React.Component {
                 </div>
                 <div style={{flex: "1"}}>
                     <div className="head-react-logo-container">
-                        <img src={ReactLogo} className="head-react-logo"/>
+                        <img src={ReactLogo} alt={"react-logo-in-header"} className="head-react-logo"/>
                     </div>
                 </div>
             </div>

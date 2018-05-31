@@ -11,7 +11,10 @@ export default class SearchBar extends React.Component {
     }
 
     componentDidMount() {
-        console.log(window.location.pathname);
+        console.log("Focusing on the search input bar.");
+        if (this.props.on_search_page) {
+            this.refs.search_input.focus();
+        }
     }
 
     navigateToSearchPage = (event, direct) => {
@@ -33,6 +36,7 @@ export default class SearchBar extends React.Component {
         return (
             <div className="search-bar-main">
                 <input type="text" placeholder="Search for books"
+                       ref="search_input"
                        onChange={(event) => {
 
                            if (this.props.on_search_page) {
