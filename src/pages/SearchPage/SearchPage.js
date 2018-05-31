@@ -30,14 +30,13 @@ export default class SearchPage extends React.Component {
     }
 
     componentDidMount() {
-        document.title = `Search: "${this.state.search_term}"`;
 
         this.fetchBooksData();
     }
 
     fetchBooksData = async () => {
 
-        let search_results = await BooksAPI.searchBooks(this.state.search_term, 10);
+        let search_results = await BooksAPI.search(this.state.search_term, 10);
         await this.setState({data_fetched: true});
 
         try {
@@ -45,19 +44,24 @@ export default class SearchPage extends React.Component {
             });
         }
         catch (ex) {
-            console.log("Invalid result.");
-            this.setState({data_fetched: true});
+            console.log("can't map result.");
+            // this.setState({data_fetched: true});
             return;
         }
 
-        let all_tracked_books = await BooksAPI.getAllBooks();
+        let all_tracked_books = await BooksAPI.getAll();
 
         let results_tracked = [];
         search_results.map((result_item) => {
             console.log(result_item);
+
             let index = all_tracked_books.map((tracked_item) => {
                 return tracked_item.id
             }).indexOf(result_item.id);
+
+            console.log(all_tracked_books[index]);
+            console.log("^^^ index item ^^^");
+
             if (index > -1) {
                 results_tracked.push(all_tracked_books[index]);
             }
@@ -150,7 +154,7 @@ export default class SearchPage extends React.Component {
 
         return (
             <div className="search-page-content-container">
-                <Bookshelf bookshelf_name={"Uncategorized:"}
+                <Bookshelf bookshelf_name={"None:"}
                            books={this.state.uncategorized}
                            data_fetched={this.state.data_fetched}
                            show={this.state.uncategorized.length > 0}
@@ -176,6 +180,12 @@ export default class SearchPage extends React.Component {
 
     render() {
 
+        let document_title = "Search - Udacity.MyReads";
+        if (this.state.search_term.length > 0) {
+            document_title = `Search: "${this.state.search_term}"`;
+        }
+        document.title = document_title;
+
         return (
             <div className="search-page-main">
                 <Head on_search_page={true}
@@ -183,7 +193,6 @@ export default class SearchPage extends React.Component {
                       invalidateResults={this.invalidateResults}
                       search_term={this.state.search_term}/>
 
-                {/*<SpinnerBox result_loading={this.state.data_fetched}/>*/}
                 {this.resultDisplayControl()}
 
                 <Foot/>

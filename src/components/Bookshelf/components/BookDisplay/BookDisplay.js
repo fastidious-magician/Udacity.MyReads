@@ -22,14 +22,17 @@ export default class BookDisplay extends React.Component {
 
     closeOptionsMenu = () => {
         this.setState({ show_options_menu:  false });
-        this.props.fetchBooksData();
     };
 
     menuOptionsDisplay = () => {
         if (this.state.show_options_menu) {
             return (
                 <div className="book-display-menu-button" onClick={this.showOptionsMenu}>
-                    <BookOptionMenu show={this.state.show_options_menu} closeMenu={this.closeOptionsMenu}/>
+                    <BookOptionMenu
+                        book_id={this.props.book.id}
+                        show={this.state.show_options_menu}
+                        closeMenu={this.closeOptionsMenu}
+                        fetchBooksData={this.props.fetchBooksData}/>
                 </div>
             );
         }

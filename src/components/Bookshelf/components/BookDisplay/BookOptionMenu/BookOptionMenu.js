@@ -7,24 +7,40 @@ export default class BookOptionMenu extends React.Component {
 
     constructor(props) {
         super(props);
+
+        this.state = {
+            "on_search_page": (window.location.indexOf("search") > -1)
+        }
     }
 
-    doItemAction = async (item) => {
-        switch (item.name) {
+    doItemAction = async (option_item) => {
+
+        let d = {};
+        switch (option_item.name) {
             case "currently_reading":
                 console.log("Doing action for currently reading");
-                let d = await BooksAPI.updateBookshelf(item.id, "currentlyReading");
+                d = await BooksAPI.update(this.props.book_id, "currentlyReading");
                 console.log(d);
-                this.props.closeOptionsMenu();
+                console.log("RESPONSE")
+                this.props.fetchBooksData();
                 break;
             case "already_read":
                 console.log("Doing action for already read.");
+                d = await BooksAPI.update(this.props.book_id, "read");
+                console.log(d);
+                this.props.fetchBooksData();
                 break;
             case "want_to_read":
                 console.log("Doing action for want to read.");
+                d = await BooksAPI.update(this.props.book_id, "wantToRead");
+                console.log(d);
+                this.props.fetchBooksData();
                 break;
             case "none":
                 console.log("Doing action for none.");
+                d = await BooksAPI.update(this.props.book_id, "none");
+                console.log(d);
+                this.props.fetchBooksData();
                 break;
             default:
                 break;
@@ -60,16 +76,21 @@ export default class BookOptionMenu extends React.Component {
             window.addEventListener('mousedown', this.handleMenuClickEvent, false);
             console.log('added event listener');
 
+            let filtered_menu_options = menu_options.slice();
+            if (this.state.on_search_page) {
+                delete filtered_menu_options[3]
+            }
+
             return (
                 <div className="book-options-menu-main" ref="book_options_menu">
-                    {menu_options.map((item, index) =>
+                    {filtered_menu_options.map((option_item, index) =>
                         <div className="book-options-menu-item" onClick={(e) => {
                             e.stopPropagation();
-                            console.log(item);
-                            this.doItemAction(item);
+                            console.log(option_item);
+                            this.doItemAction(option_item);
                             this.props.closeMenu();
                         }} key={index}>
-                            <p>{item.display_str}</p>
+                            <p>{option_item.display_str}</p>
                         </div>
                     )}
                 </div>

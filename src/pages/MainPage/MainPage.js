@@ -28,7 +28,10 @@ export default class MainPage extends React.Component {
     }
 
     fetchBooksData = async () => {
-        let all_books = await BooksAPI.getAllBooks();
+        let all_books = await BooksAPI.getAll();
+
+        console.log(all_books);
+        console.log("^^^ All Books ^^^");
 
         let currently_readings = [];
         let already_reads = [];
