@@ -1,5 +1,5 @@
 import React from 'react';
-import SpinnerBox from './components/SpinnerBox/SpinnerBox';
+import utils from '../../utils/utils';
 import './SearchPage.css';
 import Head from '../../components/Head/Head';
 import Foot from '../../components/Foot/Foot';
@@ -50,20 +50,16 @@ export default class SearchPage extends React.Component {
         }
 
         let all_tracked_books = await BooksAPI.getAll();
+        let identified_results = [];
 
-        let results_tracked = [];
         search_results.map((result_item) => {
-            console.log(result_item);
-
-            let index = all_tracked_books.map((tracked_item) => {
-                return tracked_item.id
-            }).indexOf(result_item.id);
-
-            console.log(all_tracked_books[index]);
-            console.log("^^^ index item ^^^");
-
-            if (index > -1) {
-                results_tracked.push(all_tracked_books[index]);
+            let tracked_index = utils.indexOfObjectWithFieldValue(all_tracked_books, "id", result_item.id);
+            if (tracked_index > -1) {
+                identified_results.push(all_tracked_books[tracked_index]);
+            }
+            else {
+                result_item["shelf"] = "none";
+                identified_results.push(result_item);
             }
         });
 
@@ -72,25 +68,22 @@ export default class SearchPage extends React.Component {
         let want_to_reads = [];
         let uncategorized = [];
 
-        results_tracked.map((item) => {
-            switch (item.shelf) {
-                case "currentlyReading":
-                    console.log(`Pushing to ${item.shelf}`);
-                    currently_readings.push(item);
-                    break;
-                case "read":
-                    console.log(`Pushing to ${item.shelf}`);
-                    already_reads.push(item);
-                    break;
-                case "wantToRead":
-                    console.log(`Pushing to ${item.shelf}`);
-                    want_to_reads.push(item);
-                    break;
-                default:
-                    console.log(`Pushing to ${item.shelf}`);
-                    uncategorized.push(item);
-                    break;
-            }
+        identified_results.map((item) => {
+           switch (item.shelf) {
+               case "currentlyReading":
+                   currently_readings.push(item);
+                   break;
+               case "read":
+                   already_reads.push(item);
+                   break;
+               case "wantToRead":
+                   want_to_reads.push(item);
+                   break;
+               case "none":
+                   uncategorized.push(item);
+               default:
+                   break;
+           }
         });
 
         this.setState({

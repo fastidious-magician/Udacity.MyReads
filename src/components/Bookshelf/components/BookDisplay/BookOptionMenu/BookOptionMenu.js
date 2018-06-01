@@ -9,7 +9,7 @@ export default class BookOptionMenu extends React.Component {
         super(props);
 
         this.state = {
-            "on_search_page": (window.location.indexOf("search") > -1)
+            "on_search_page": (String(window.location).indexOf("search") > -1)
         }
     }
 
