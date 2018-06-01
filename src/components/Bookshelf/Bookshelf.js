@@ -21,7 +21,7 @@ export default class Bookshelf extends React.Component {
         if (this.props.books.length === 0) {
             return (
                 <div className="bookshelf-books-display">
-                    <p>No books to display.</p>
+                    <p className="bookshelf-nobooks">No books to display.</p>s
                 </div>
             )
         }
