@@ -2,7 +2,7 @@
 
 ##Start in Development Mode: 
 `cd ./cloned_directory` and then:
-`npm install`, 
+`npm install`
 
 Run with: `npm start`
 
